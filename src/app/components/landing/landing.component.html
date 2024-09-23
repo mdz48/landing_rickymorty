@@ -1,0 +1,30 @@
+<main>
+    <section id="box-serie">
+        <div id="box-media">
+            <video src="public\assets\landing\Video-Intro.mp4"></video>
+        </div>
+        <div id="box-presentation">
+            <div id="box-information">
+                <div id="box-title">
+                    <p class="title">El limite no existe en las realidades</p>
+                </div>
+                <div id="box-text">
+                    <p class="text">"Rick y Morty" es una serie animada que sigue las aventuras de un científico excéntrico, Rick, y su nieto, Morty, mientras exploran universos y realidades infinitas llenas de peligros, humor negro y ciencia ficción absurda.</p>
+                </div>
+            </div>
+            <div id="box-picture">
+                <img src="assets/landing/rickymorty-poster.jpg" alt="">
+            </div>
+        </div>
+        <div id="episodios">
+            <div id="box-title">
+                <p class="title">Los mejores episodios de la serie</p>
+            </div>
+            <div id="box-cards">
+                <div id="card" *ngFor="let episode of episodes">
+                    <app-card [episode]="episode"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

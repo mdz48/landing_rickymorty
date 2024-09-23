@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+nav {
+    width: 90%;
+    display: flex;
+}
+
+#box-picture {
+    width: 13%;
+    /* border: 2px solid red; */
+}
+
+img {
+    width: 150px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+#box-links {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 0 16px;
+}

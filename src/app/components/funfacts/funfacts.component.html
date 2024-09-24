@@ -1,0 +1,10 @@
+<main>
+    <section>
+        <p class="title" style="text-align: center;">Dimensiones Curiosas</p>
+        <div id="box-horizontal">
+            <div *ngFor="let layedCard of layedCards">
+                <app-horizontal-card [layedCard]="layedCard"/>
+            </div>
+        </div>
+    </section>
+</main>

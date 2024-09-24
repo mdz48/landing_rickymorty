@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './horizontal-card.component.css'
 })
 export class HorizontalCardComponent {
-  @Input() layedCard = { img: '', title: '', text: ''}
+  @Input() layedCard = { picture: '', title: '', text: ''}
 }

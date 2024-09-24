@@ -9,9 +9,13 @@ section {
     
 }
 
-#box-horizontal {
-    width: 100%;
-    border: 2px solid goldenrod;
+#box-characters {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#aux {
+    width: 30%;
+    margin-top: 30px;
 }

@@ -1,9 +1,17 @@
 <main>
     <section>
         <p class="title" style="text-align: center;">Dimensiones Curiosas</p>
-        <div id="box-horizontal">
+        <div id="box-layedCards">
             <div *ngFor="let layedCard of layedCards">
                 <app-horizontal-card [layedCard]="layedCard"/>
+            </div>
+        </div>
+        <div id="funfacts">
+            <p class="title" style="text-align: center;">Datos Curiosos de los personas de la serie y comics</p>
+            <div id="box-characters">
+                <div  id="aux"  *ngFor="let character of characters">
+                    <app-card [episode]="character"></app-card>
+                </div>
             </div>
         </div>
     </section>

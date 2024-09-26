@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #3B3B3B;
+    width: 90%;   
+}
+
+#box-gifs{
+    padding: 35px 0 35px 0 ;
+    display: flex;
+    justify-content: space-around;
+}
+
+video {
+    max-width: 75%;
+
+}
+
+#box-vid {
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,14 @@
+<main>
+    <section>
+        <p class="title" style="text-align: center;">Frases Icónicas de la serie</p>
+        <div id="box-gifs">
+            <div *ngFor="let video of videos">
+                <app-gif [video]="video" />
+            </div>
+        </div>
+        <p class="title" style="text-align: center;">Videojuego de Rick y Morty</p>
+        <div id="box-vid">
+            <video src="assets/videogame/pocketmortys.mp4" controls></video>
+        </div>
+    </section>
+</main>
